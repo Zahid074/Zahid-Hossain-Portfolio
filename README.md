@@ -150,9 +150,7 @@ The site is configured for **Netlify** (`netlify.toml`) with the official `@netl
 - Push to `main` to trigger an automatic redeploy.
 - Remember to set the same `NEXT_PUBLIC_SANITY_*` environment variables in your Netlify site settings.
 
-### 🚀 Production URL
-
-# [https://zahid-protofolio.netlify.app/](https://zahid-protofolio.netlify.app/)
+### 🚀 Production URL: [Live](https://zahid-protfolio.netlify.app/)
 
 ---
 
