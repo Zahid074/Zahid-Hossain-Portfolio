@@ -85,17 +85,14 @@ Portfolio/
 |---|---|
 | **Hero** | Name, titles, contact info, and CTA buttons (CV download, social links) |
 | **About Me** | Brief personal and professional background |
-| **Research Interests** | Key research areas with icon cards |
-| **Education** | Academic timeline |
+| **Education** | Academic timeline (SSC → HSC → BSc) |
 | **Experience** | Professional timeline with organisation logos |
-| **Publications** | Conference/journal paper listing |
 | **Ongoing Research** | Current research work in progress |
-| **Skills** | Categorised skill chips |
+| **Skills** | Categorised skill chips — Programming, Tools, ML/DL, Web |
 | **Projects** | Recent & previous project cards with tech stack, descriptions, and links |
 | **Achievements** | Awards / scholarships and extracurricular activities |
 | **FAQ** | Frequently Asked Questions accordion |
-| **References** | Academic referees |
-| **Contact** | Contact details and social links |
+| **Contact** | Email and WhatsApp contact with social links |
 
 ---
 
@@ -153,6 +150,10 @@ The site is configured for **Netlify** (`netlify.toml`) with the official `@netl
 - Push to `main` to trigger an automatic redeploy.
 - Remember to set the same `NEXT_PUBLIC_SANITY_*` environment variables in your Netlify site settings.
 
+### 🚀 Production URL
+
+# [https://zahid-protofolio.netlify.app/](https://zahid-protofolio.netlify.app/)
+
 ---
 
 ## 📬 Contact
@@ -160,8 +161,8 @@ The site is configured for **Netlify** (`netlify.toml`) with the official `@netl
 | Channel | Details |
 |---|---|
 | **Email** | mohammad.zahid.hossain2@gmail.com |
-| **LinkedIn** | [your-linkedin](https://www.linkedin.com/in/md-zahid-hossain-1806022b0) |
-| **GitHub** | [your-github](https://github.com/Zahid074) |
+| **LinkedIn** | [LinkedIn](https://www.linkedin.com/in/md-zahid-hossain-1806022b0) |
+| **GitHub** | [GitHub](https://github.com/Zahid074) |
 
 ---
 
