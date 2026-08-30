@@ -12,7 +12,7 @@ export default function References({ references }) {
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {references.items.map((ref, idx) => (
-            <div key={idx} className="section-card rounded-xl2 border-l-4 border-[rgb(var(--accent-rgb))] p-7 shadow-sm">
+            <div key={idx} data-reveal className="section-card rounded-xl2 border-l-4 border-[rgb(var(--accent-rgb))] p-7 shadow-sm">
               <h3 className="mb-3 flex items-center gap-2 text-lg font-bold">
                 <FaUserCircle className="text-soft" /> {ref.name}
               </h3>
