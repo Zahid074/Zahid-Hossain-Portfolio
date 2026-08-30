@@ -21,7 +21,7 @@ export default function FAQ({ faq }) {
         {faq.items.map((item, idx) => {
           const isOpen = openIndex === idx;
           return (
-            <div key={idx} className="section-card overflow-hidden rounded-xl2 shadow-sm">
+            <div key={idx} data-reveal className="section-card overflow-hidden rounded-xl2 shadow-sm">
               <button
                 onClick={() => setOpenIndex(isOpen ? null : idx)}
                 className="flex w-full items-center justify-between px-6 py-5 text-left font-semibold"
