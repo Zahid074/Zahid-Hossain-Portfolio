@@ -15,9 +15,10 @@ export default function ResearchInterests({ researchInterests }) {
             const Icon = getIcon(item.icon);
             return (
               <div
-                key={item.title}
-                className="group section-card rounded-xl2 border-2 border-transparent p-8 text-center shadow-sm transition hover:-translate-y-1 hover:border-[rgb(var(--accent-rgb))] hover:shadow-lg"
-              >
+                  key={item.title}
+                  data-reveal
+                  className="group section-card rounded-xl2 border-2 border-transparent p-8 text-center shadow-sm transition hover:-translate-y-1 hover:border-[rgb(var(--accent-rgb))] hover:shadow-lg"
+                >
                 <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-[rgb(var(--accent-rgb)/0.1)] text-2xl text-[rgb(var(--accent-rgb))] transition-colors duration-300 group-hover:bg-gradient-to-br group-hover:from-[rgb(var(--accent-rgb))] group-hover:to-[rgb(var(--accent2-rgb))] group-hover:text-white">
                   <Icon />
                 </div>
