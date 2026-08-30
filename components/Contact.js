@@ -10,7 +10,7 @@ export default function Contact({ contact }) {
           <span className="gradient-text">{contact.heading}</span>
         </h2>
 
-        <div className="section-card mt-12 rounded-xl2 border-l-4 border-[rgb(var(--accent-rgb))] p-8 shadow-sm sm:p-10">
+        <div data-reveal className="section-card mt-12 rounded-xl2 border-l-4 border-[rgb(var(--accent-rgb))] p-8 shadow-sm sm:p-10">
           {contact.message && <p className="text-soft leading-relaxed">{contact.message}</p>}
 
           <div className="mt-8 flex flex-col items-center gap-4">
