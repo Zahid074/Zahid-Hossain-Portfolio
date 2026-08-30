@@ -131,6 +131,7 @@ export default defineType({
                 { name: "degree", title: "Degree", type: "string" },
                 { name: "institution", title: "Institution", type: "string" },
                 { name: "details", title: "Details / CGPA", type: "string" },
+                { name: "logo", title: "Institution Logo", type: "image" },
               ],
             },
           ],
