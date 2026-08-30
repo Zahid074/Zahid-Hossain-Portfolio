@@ -19,7 +19,7 @@ export default function Skills({ skills }) {
           {skills.categories.map((cat) => {
             const Icon = getIcon(cat.icon);
             return (
-              <div key={cat.title} className="group section-card rounded-xl2 border-2 border-transparent p-7 shadow-sm transition hover:-translate-y-1 hover:border-[rgb(var(--accent-rgb))] hover:shadow-lg">
+              <div key={cat.title} data-reveal className="group section-card rounded-xl2 border-2 border-transparent p-7 shadow-sm transition hover:-translate-y-1 hover:border-[rgb(var(--accent-rgb))] hover:shadow-lg">
                 <div className="mb-5 flex items-center gap-3 border-b border-black/5 pb-4">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[rgb(var(--accent-rgb)/0.1)] text-[rgb(var(--accent-rgb))] transition-colors duration-300 group-hover:bg-gradient-to-br group-hover:from-[rgb(var(--accent-rgb))] group-hover:to-[rgb(var(--accent2-rgb))] group-hover:text-white">
                     <Icon />
