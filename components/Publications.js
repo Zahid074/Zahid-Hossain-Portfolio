@@ -12,7 +12,7 @@ export default function Publications({ publications }) {
 
         <div className="mt-12 space-y-6">
           {publications.items.map((pub, idx) => (
-            <div key={idx} className="section-card flex gap-5 rounded-xl2 p-6 shadow-sm sm:p-8">
+            <div key={idx} data-reveal className="section-card flex gap-5 rounded-xl2 p-6 shadow-sm sm:p-8">
               <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-[rgb(var(--accent2-rgb)/0.12)] text-xl text-[rgb(var(--accent2-rgb))]">
                 <FaBookOpen />
               </div>
