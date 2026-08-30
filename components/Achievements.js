@@ -2,7 +2,7 @@ import { getIcon } from "@/lib/iconMap";
 
 function AchievementColumn({ heading, items, icon: HeadingIcon }) {
   return (
-    <div className="section-card rounded-xl2 p-7 shadow-sm sm:p-8">
+    <div data-reveal className="section-card rounded-xl2 p-7 shadow-sm sm:p-8">
       <div className="mb-6 flex items-center gap-3 border-b border-black/5 pb-4">
         <HeadingIcon className="text-xl text-[rgb(var(--accent-rgb))]" />
         <h3 className="text-xl font-bold">{heading}</h3>
