@@ -12,6 +12,7 @@ export default function OngoingResearch({ ongoingResearch }) {
           {ongoingResearch.items.map((item) => (
             <div
               key={item.title}
+              data-reveal
               className="group rounded-xl2 border-2 border-transparent bg-black/5 p-7 shadow-sm transition hover:-translate-y-1 hover:border-[rgb(var(--accent-rgb))] hover:shadow-xl dark:bg-white/5"
             >
               <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
