@@ -7,7 +7,7 @@ export default function ProjectCard({ project, onOpen }) {
   const img = imageSrc(project.image);
 
   return (
-    <div className="section-card group flex flex-col overflow-hidden rounded-xl2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+    <div data-reveal className="section-card group flex flex-col overflow-hidden rounded-xl2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
       {img && (
         <button
           onClick={() => onOpen(project)}
