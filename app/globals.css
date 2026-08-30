@@ -43,6 +43,18 @@ body {
   position: relative;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -20;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, rgb(var(--accent-rgb) / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(var(--accent-rgb) / 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
 .section-card {
   background-color: var(--bg-card);
   transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
