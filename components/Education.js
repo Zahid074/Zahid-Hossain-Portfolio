@@ -18,7 +18,7 @@ export default function Education({ education }) {
                 <span className="timeline-dot absolute -left-[38px] top-2 h-4 w-4 rounded-full ring-4 ring-[var(--bg)]" />
                 <div className="section-card flex flex-col gap-5 rounded-xl2 p-6 shadow-sm sm:flex-row sm:items-center sm:p-8">
                   {logo && (
-                    <div className="h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg border border-black/5 bg-white">
+                    <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-lg border border-black/5 bg-white">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={logo} alt={ed.institution} className="h-full w-full object-contain p-1" />
                     </div>
