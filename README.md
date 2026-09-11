@@ -1,13 +1,34 @@
-# 🧠 Zahid Hossain — Personal Portfolio
+<div align="center">
 
-[![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-00C7B7?logo=netlify&logoColor=white)](https://netlify.com)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Sanity](https://img.shields.io/badge/CMS-Sanity-F03E2F?logo=sanity&logoColor=white)](https://www.sanity.io/)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:2563EB&height=200&section=header&text=Zahid%20Hossain&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Personal%20Portfolio%20%E2%80%94%20CSE%20Undergraduate%20%40%20EWU&descAlignY=58&descSize=18" width="100%"/>
 
-> Personal portfolio website — fully dynamic and content-driven via **Sanity CMS**.
-> Built with **Next.js 14 (App Router)**, **Tailwind CSS**, and **react-icons**.
+<a href="https://zahid-protfolio.netlify.app/">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack+Software+Developer;Machine+Learning+%26+Computer+Vision+Enthusiast;Building+Systems+That+Create+Real+Impact;Welcome+to+My+Portfolio+%F0%9F%91%8B&font=Fira+Code&center=true&width=560&height=45&duration=3000&pause=800&color=6D28D9&vCenter=true&size=22" alt="Typing SVG" />
+</a>
+
+<br/>
+
+[![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://netlify.com)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Sanity](https://img.shields.io/badge/CMS-Sanity-F03E2F?style=for-the-badge&logo=sanity&logoColor=white)](https://www.sanity.io/)
+
+<br/>
+
+**[🌐 Live Site](https://zahid-protfolio.netlify.app/) · [📧 Email](mailto:mohammad.zahid.hossain2@gmail.com) · [💼 LinkedIn](https://www.linkedin.com/in/md-zahid-hossain-1806022b0) · [🐙 GitHub](https://github.com/Zahid074)**
+
+</div>
+
+<br/>
+
+> A fully dynamic, content-driven personal portfolio — **nothing is hardcoded**. Every word, image, and link is pulled live from **Sanity CMS**, styled with **Tailwind CSS**, and rendered with **Next.js 14 (App Router)**.
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+</div>
 
 ---
 
@@ -64,39 +85,64 @@ Portfolio/
 
 ## ✨ Features
 
-- 🗄️ **Fully data-driven** — every word, link, and image is fetched from **Sanity CMS**; nothing is hardcoded in the components
+<table>
+<tr>
+<td width="50%" valign="top">
+
+- 🗄️ **Fully data-driven** — every word, link, and image is fetched from **Sanity CMS**
 - 🌗 **Dark / Light Mode** toggle with smooth transitions, persisted in `localStorage`
-- 🎨 **Theme Colour Picker** — Blue, Purple, Green accent options, persisted and applied via CSS variables
-- 🖼️ **Auto-sliding Profile Slideshow** with crossfade animation (interval configurable from the CMS)
-- 📄 **Smart CV button** — auto-generates an ATS-friendly PDF from live CMS data, or serves a manually uploaded PDF
-- 🔗 **Auto-detected social icons** — drop in any URL and the correct brand icon (GitHub, LinkedIn, Kaggle, etc.) shows automatically
-- 🖼️ **Project detail modal** with full bullet list, tags, and links to repo/live demo
-- 💫 **Canvas-based particle background** — no external animation library
+- 🎨 **Theme Colour Picker** — Blue, Purple, Green accents, applied via CSS variables
+- 🖼️ **Auto-sliding Profile Slideshow** with crossfade animation
+- 📄 **Smart CV button** — auto-generates an ATS-friendly PDF from live CMS data
+
+</td>
+<td width="50%" valign="top">
+
+- 🔗 **Auto-detected social icons** — drop in any URL, the right brand icon appears
+- 🖼️ **Project detail modal** with bullet list, tags, and repo/live links
+- 💫 **Canvas-based particle background** — zero external animation library
 - 🖱️ **Custom animated cursor glow**
-- 📱 **Fully responsive** across mobile, tablet, and desktop
-- 🎯 **Glassmorphism** card design language throughout
-- ❓ **FAQ accordion** with animated expand/collapse
+- 📱 **Fully responsive** · 🎯 **Glassmorphism** design · ❓ **Animated FAQ accordion**
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🗂️ Sections
 
+<div align="center">
+
 | Section | Description |
-|---|---|
-| **Hero** | Name, titles, contact info, and CTA buttons (CV download, social links) |
-| **About Me** | Brief personal and professional background |
-| **Education** | Academic timeline (SSC → HSC → BSc) |
-| **Experience** | Professional timeline with organisation logos |
-| **Ongoing Research** | Current research work in progress |
-| **Skills** | Categorised skill chips — Programming, Tools, ML/DL, Web |
-| **Projects** | Recent & previous project cards with tech stack, descriptions, and links |
-| **Achievements** | Awards / scholarships and extracurricular activities |
-| **FAQ** | Frequently Asked Questions accordion |
-| **Contact** | Email and WhatsApp contact with social links |
+|:---|:---|
+| 🏠 **Hero** | Name, titles, contact info, and CTA buttons (CV download, social links) |
+| 👤 **About Me** | Brief personal and professional background |
+| 🎓 **Education** | Academic timeline (SSC → HSC → BSc) |
+| 💼 **Experience** | Professional timeline with organisation logos |
+| 🔬 **Ongoing Research** | Current research work in progress |
+| 🛠️ **Skills** | Categorised skill chips — Programming, Tools, ML/DL, Web |
+| 🚀 **Projects** | Recent & previous project cards with tech stack, descriptions, links |
+| 🏆 **Achievements** | Awards / scholarships and extracurricular activities |
+| ❓ **FAQ** | Frequently Asked Questions accordion |
+| 📬 **Contact** | Email and WhatsApp contact with social links |
+
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
+
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Sanity](https://img.shields.io/badge/Sanity_CMS-F03E2F?style=flat-square&logo=sanity&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![jsPDF](https://img.shields.io/badge/jsPDF-DC2626?style=flat-square&logo=adobeacrobatreader&logoColor=white)
+![styled-components](https://img.shields.io/badge/styled--components-DB7093?style=flat-square&logo=styledcomponents&logoColor=white)
+
+</div>
 
 | Technology | Purpose |
 |---|---|
@@ -111,29 +157,41 @@ Portfolio/
 
 ## 🚀 Running Locally
 
-### 1. Install dependencies
+<details open>
+<summary><b>1️⃣ Install dependencies</b></summary>
+
 ```bash
 npm install
 ```
+</details>
 
-### 2. Set up environment variables
+<details open>
+<summary><b>2️⃣ Set up environment variables</b></summary>
+
 Create a `.env.local` file in the project root:
-```
+```env
 NEXT_PUBLIC_SANITY_PROJECT_ID=your-project-id
 NEXT_PUBLIC_SANITY_DATASET=production
 ```
+</details>
 
-### 3. Start the dev server
+<details open>
+<summary><b>3️⃣ Start the dev server</b></summary>
+
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000) 🎉
+</details>
 
-### 4. Production build
+<details>
+<summary><b>4️⃣ Production build</b></summary>
+
 ```bash
 npm run build
 npm run start
 ```
+</details>
 
 ---
 
@@ -150,25 +208,35 @@ The site is configured for **Netlify** (`netlify.toml`) with the official `@netl
 - Push to `main` to trigger an automatic redeploy.
 - Remember to set the same `NEXT_PUBLIC_SANITY_*` environment variables in your Netlify site settings.
 
-### 🚀 Production URL: [Live](https://zahid-protfolio.netlify.app/)
+<div align="center">
+
+### 🚀 [**Production URL — Live Site**](https://zahid-protfolio.netlify.app/)
+
+</div>
 
 ---
 
 ## 📬 Contact
 
-| Channel | Details |
-|---|---|
-| **Email** | mohammad.zahid.hossain2@gmail.com |
-| **LinkedIn** | [LinkedIn](https://www.linkedin.com/in/md-zahid-hossain-1806022b0) |
-| **GitHub** | [GitHub](https://github.com/Zahid074) |
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-mohammad.zahid.hossain2%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammad.zahid.hossain2@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-zahid-hossain-1806022b0)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zahid074)
+
+</div>
 
 ---
 
 ## 📄 License
 
-This project is open-source under the [MIT License](LICENSE).
-Feel free to fork and adapt for your own portfolio — credit appreciated!
+This project is open-source under the **[MIT License](LICENSE)**.
+Feel free to fork and adapt for your own portfolio — credit appreciated! ⭐
 
----
+<div align="center">
 
-*© 2026 Zahid Hossain*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:6D28D9&height=100&section=footer" width="100%"/>
+
+*© 2026 Zahid Hossain — Built with 💙 and lots of ☕*
+
+</div>
