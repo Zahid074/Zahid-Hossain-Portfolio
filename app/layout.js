@@ -3,6 +3,7 @@ import { getContent } from "@/lib/data";
 import ParticleBackground from "@/components/ParticleBackground";
 import CursorGlow from "@/components/CursorGlow";
 import ScrollReveal from "@/components/ScrollReveal";
+import SoundManager from "@/components/SoundManager";
 
 export async function generateMetadata() {
   const content = await getContent();
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <ParticleBackground />
         <CursorGlow />
         <ScrollReveal />
+        <SoundManager />
         {children}
       </body>
     </html>
